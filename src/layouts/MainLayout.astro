@@ -1,0 +1,11 @@
+---
+import MainHeader from "./MainHeader.astro";
+const { title = "sparkk" } = Astro.props;
+---
+
+<html lang="en">
+	<MainHeader {title} />
+	<body>
+		<slot />
+	</body>
+</html>

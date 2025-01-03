@@ -1,0 +1,121 @@
+  @font-face {
+    font-family: 'ReadexPro';
+    src: url('/fonts/ReadexPro.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'ReadexProL';
+    src: url('/fonts/ReadexPro-ExtraLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+
+html {
+    background-color: #090500;
+    font-family:'ReadexProL';
+  }
+
+  body {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  p {
+    color: aliceblue;
+    margin: 1rem 0;
+    line-height: normal;
+    font-size:large;
+  }
+
+  .textarea {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  h1 {
+    font-weight: 500;
+    color: aliceblue;
+    margin: 1rem 0;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  
+  h2 {
+    font-weight: 500;
+    color: rgba(240, 248, 255, 0.487);
+    margin: 1rem 0;
+    line-height: normal;
+    font-size: large;
+    font-weight: 500;
+  }
+
+  .box {
+    width: 510px;
+    height: 50px;
+    border: 1px solid rgba(240, 248, 255, 0.242);
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-family: "ReadexProL";
+    border-radius: 8px;
+    font-size: 20px;
+    color: #ffffff86;
+  }
+
+  .forground {
+    width: 540px;
+    height: fit-content;
+    padding: 20px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    color: aliceblue;
+    align-self: center;
+  }
+
+  .button {
+    width: 510px;
+    height: 50px;
+    background-color: #f9c23c;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-family: "ReadexPro";
+    font-size: 20px;
+    text-decoration: none;
+    color: #070213;
+  }
+
+  .horizontalgap {
+    float: left;
+    overflow: hidden;
+    height: 1px;
+    width: 0px;
+  }
+
+  .header {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
